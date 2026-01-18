@@ -14,7 +14,7 @@ function Footer() {
           <h1 className='text-2xl text-yellow-400 font-semibold mb-4'>EverAfter</h1>
           <p className='text-[13px] text-gray-300 mb-3'>Capturing timeless wedding memories with passion and artistry</p>
           <div className='flex gap-3 mt-2'>
-            <a href='https://www.instagram.com/sahil_abbas_10k' target="blank" rel='noopener noreferrer' className='hover:text-amber-300 hover:cursor-pointer ml-7 mr-4 w-8 h-8 rounded-full flex items-center justify-center bg-gray-600'><FaInstagram/> </a>
+            <a href='https://www.instagram.com/sahil_abbas_10k' target="blank" rel='noopener noreferrer' className='hover:text-amber-300 hover:cursor-pointer  mr-4 w-8 h-8 rounded-full flex items-center justify-center bg-gray-600'><FaInstagram/> </a>
             <div className='hover:text-amber-300 hover:cursor-pointer mr-4 w-8 h-8 rounded-full flex items-center justify-center bg-gray-600'><FaFacebookF/></div>
             <div className='hover:text-amber-300 hover:cursor-pointer mr-4 w-8 h-8 rounded-full flex items-center justify-center bg-gray-600'><FaTelegram/></div>
             <a href='https://www.youtube.com/@funwithcode110' target="blank" rel='noopener noreferrer' className='hover:text-amber-300 hover:cursor-pointer mr-4 w-8 h-8 rounded-full flex items-center justify-center bg-gray-600'><FaYoutube/></a>

@@ -21,7 +21,7 @@ function Service() {
                 initial={{ opacity: 0, right: 50 }}
                 whileInView={{ opacity: 1, right: 20 }}
                 transition={{ duration: 0.8 }}
-                className='p-6 bg-white rounded-lg shadow-lg w-full max-w-sm mx-auto hover:border-2'
+                className='p-6 bg-white rounded-lg shadow-lg w-full max-w-sm mx-auto hover:border-2 border-amber-400'
               >
                 <div className='w-12 h-12 bg-amber-300 rounded-full flex items-center justify-center'>
                   <GiDiamondRing className='text-white text-2xl' />
@@ -40,7 +40,7 @@ function Service() {
                 initial={{ opacity: 0, y: 50 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.4, }}
-                className='p-6 bg-white rounded-lg shadow-lg w-full max-w-sm mx-auto hover:border-2'
+                className='p-6 bg-white rounded-lg shadow-lg w-full max-w-sm mx-auto hover:border-2 border-pink-500'
               >
                 <div className='w-12 h-12 rounded-full bg-pink-500 flex justify-center items-center '>
                   < FaHeart className='text-white  ' />
@@ -60,7 +60,7 @@ function Service() {
                 initial={{ opacity: 0, y: 50 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.4, }}
-                className='p-6 bg-white rounded-lg shadow-lg w-full max-w-sm mx-auto hover:border-2'
+                className='p-6 bg-white rounded-lg shadow-lg w-full max-w-sm mx-auto hover:border-2 border-amber-400'
               >
                 <div className='w-12 h-12 rounded-full bg-yellow-400 flex justify-center items-center '>
                   <FaImages className='text-white ' />

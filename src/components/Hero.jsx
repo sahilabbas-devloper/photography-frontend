@@ -1,5 +1,6 @@
 import React from 'react'
 import{ motion} from "framer-motion"
+import { Link } from 'react-router-dom'
 
 function Hero() {
   return (
@@ -28,9 +29,9 @@ function Hero() {
               <div className=' pointer-events-auto'
               >
                 <div>
-               <button  className='px-6 h-10 rounded-3xl font-semibold bg-amber-300 hover:bg-amber-400 text-white'>Pre-Wedding</button>
-               <button  className='px-6 h-10 rounded-3xl font-semibold border-2 border-white text-white hover:bg-white hover:text-black'>Pre-Wedding</button>
-              </div>
+               <Link  className='px-6 h-10 inline-flex items-center justify-center mr-4 rounded-3xl font-semibold bg-amber-300 hover:bg-amber-400 text-white' to="/Contect" >Pre-Wedding</Link>
+               <Link  className='px-6 h-10 inline-flex items-center justify-center rounded-3xl font-semibold border-2 border-white text-white hover:bg-white hover:text-black' to="/Service">Services</Link>
+                </div>
                 </div>
             </motion.div>
              

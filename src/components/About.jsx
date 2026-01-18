@@ -64,7 +64,7 @@ function About() {
 
 
                 </div>
-                <button className='px-6 h-10 rounded-3xl font-semibold mt-6 bg-pink-500 hover:bg-amber-400 text-white'>let,s Touch</button>
+                <Link to="/Packages" className=' inline-flex items-center justify-center px-6 h-10 rounded-3xl font-semibold mt-6 bg-pink-500 hover:bg-amber-400 text-white'>let,s Touch</Link>
               </div>
             </motion.div>
           </div>

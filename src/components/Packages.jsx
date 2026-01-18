@@ -1,8 +1,9 @@
 import React from 'react'
 import { motion } from "framer-motion"
 import { AiOutlineCheck } from 'react-icons/ai'
+import { Link } from 'react-router-dom'
 
-function Pakages() {
+function Pakages({setpackages}) {
   return (
     <div>
       <div>
@@ -31,7 +32,7 @@ function Pakages() {
                   <li className='mt-3 flex'> <AiOutlineCheck className='bg-yellow-500 text-white rounded-full mt-1 mr-3 ml-1' /> <span>One photographer</span></li>
                   <li className='mt-3 flex'> <AiOutlineCheck className='bg-yellow-500 text-white rounded-full mt-1 mr-3 ml-1' /> <span>300+ edited photos</span></li>
                   <li className='mt-3 flex'> <AiOutlineCheck className='bg-yellow-500 text-white rounded-full mt-1 mr-3 ml-1' /> <span>50+ edited photos</span></li>
-                   <button  className=' bg-amber-400  text-white w-full h-10 mt-4 rounded-3xl font-semibold'>Select package</button>
+                   <Link to="Contect"  className=' inline-flex items-center justify-center bg-amber-400  text-white w-full h-10 mt-4 rounded-3xl font-semibold'>Select package</Link>
                 </ul>
               </motion.div>
 
@@ -51,7 +52,7 @@ function Pakages() {
                   <li className='mt-3 flex'> <AiOutlineCheck className='bg-yellow-500 text-white rounded-full mt-1 mr-3 ml-1' /> <span>Two photographers</span></li>
                   <li className='mt-3 flex'> <AiOutlineCheck className='bg-yellow-500 text-white rounded-full mt-1 mr-3 ml-1' /> <span>engagement session</span></li>
                   <li className='mt-3 flex'> <AiOutlineCheck className='bg-yellow-500 text-white rounded-full mt-1 mr-3 ml-1' /> <span>600+ edited photos</span></li>
-                   <button  className=' bg-pink-500  text-white w-full h-10 mt-4 rounded-3xl font-semibold'>Select package</button>
+                   <Link to="/Contect" className=' inline-flex items-center justify-center bg-pink-500  text-white w-full h-10 mt-4 rounded-3xl font-semibold'>Select package</Link>
 
                 </ul>
               </motion.div>
@@ -73,7 +74,7 @@ function Pakages() {
                   <li className='mt-3 flex'> <AiOutlineCheck className='bg-yellow-500 text-white rounded-full mt-1 mr-3 ml-1' /> <span>Three photographers</span></li>
                   <li className='mt-3 flex'> <AiOutlineCheck className='bg-yellow-500 text-white rounded-full mt-1 mr-3 ml-1' /> <span>Two engagement sessions</span></li>
                   <li className='mt-3 flex'> <AiOutlineCheck className='bg-yellow-500 text-white rounded-full mt-1 mr-3 ml-1' /> <span>1000+ edited photos</span></li>
-                   <button  className='bg-amber-400  text-white w-full h-10 mt-4 rounded-3xl font-semibold'>Select package</button>
+                   <Link to="Contect" className='inline-flex items-center justify-center bg-amber-400  text-white w-full h-10 mt-4 rounded-3xl font-semibold'>Select package</Link>
 
                 </ul>
               </motion.div>

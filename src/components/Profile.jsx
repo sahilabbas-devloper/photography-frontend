@@ -43,7 +43,7 @@ function Profile() {
           {[
             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAD7jNF3uA2_MN8xV0zt_lDVOI34s0ur564g&s",
             "https://www.sloshout.com/blog/wp-content/uploads/wedding-photographers-the-amanverse-studios-couple-shot-1_15_449054-168567082220567.jpeg",
-            "https://media.istockphoto.com/id/155360195/photo/indian-wedding-rings.jpg",
+           "https://cdn0.weddingwire.in/vendor/9168/3_2/640/jpg/wedding-photographers-smart-clicks-cinematography-couple-shot-2_15_439168-168292937836599.jpeg",
             "https://images.prismic.io/memoriesdesigner/bec7c8eb-3c4d-436e-aacc-d5b0cb62f44d_MD1_2177.jpg",
             "https://irichphotography.com/wp-content/uploads/2024/01/PRE-WEDDING-SHOOT-BANGALORE-8.jpg",
             "https://dstudios.in/wp-content/uploads/2024/08/Kerala-best-place-for-pre-wedding-shoot-in-india-scaled.webp",
